@@ -10,7 +10,9 @@ set(SOURCES
         ${ALGORITHMS_PATH}/scheduler_algorithm.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/file_reader.cpp
         ${ALGORITHMS_PATH}/room_scheduler.cpp
-        ${ALGORITHMS_PATH}/gas_station.cpp)
+        ${ALGORITHMS_PATH}/gas_station.cpp
+        ${ALGORITHMS_PATH}/knapsack_problem.cpp
+        ${ALGORITHMS_PATH}/knapsack_problem.h)
 
 set(HEADERS
         ${CMAKE_CURRENT_SOURCE_DIR}/input_stream_device.h
