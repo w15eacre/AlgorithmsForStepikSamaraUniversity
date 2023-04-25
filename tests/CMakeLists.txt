@@ -13,7 +13,8 @@ set(SOURCES
         scheduler_algorithm_test.cpp
         room_scheduler_algorithm_test.cpp
         gas_station_test.cpp
-        knapsack_problem_test.cpp)
+        knapsack_problem_test.cpp
+        rooms_scheduler_algorithm_test.cpp)
 
 configure_file (${CMAKE_CURRENT_SOURCE_DIR}/test_config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/test_config.h @ONLY)
 
